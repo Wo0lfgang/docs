@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>金鹅（Gold Goose）隐私政策</title>
+  <style>
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; max-width: 720px; margin: 2rem auto; padding: 0 1rem; line-height: 1.7; color: #1a1a1a; }
+    h1 { font-size: 1.5rem; }
+    h2 { font-size: 1.1rem; margin-top: 1.5rem; }
+    a { color: #b8860b; }
+    .updated { color: #666; font-size: 0.9rem; }
+  </style>
+</head>
+<body>
+  <h1>金鹅（Gold Goose）隐私政策</h1>
+  <p class="updated">生效日期：2026 年 6 月</p>
+
+  <p>欢迎使用金鹅（Gold Goose）。我们重视您的隐私。本政策说明我们如何收集、使用、存储和保护您的个人信息。</p>
+
+  <h2>1. 我们收集的信息</h2>
+  <ul>
+    <li><strong>账户信息：</strong>注册时提供的电子邮箱地址，用于身份验证与账号管理。</li>
+    <li><strong>财务与目标数据：</strong>您自行填写的储蓄目标、存入/支出金额、资产与负债记录。这些数据由您主动输入，我们不连接银行或第三方支付 API。</li>
+    <li><strong>用户内容：</strong>记录备注、自定义头像照片（若您选择上传）。</li>
+    <li><strong>标识符：</strong>用于区分账户的 User ID（由 Supabase Auth 生成）。</li>
+    <li><strong>设备本地数据：</strong>为支持离线使用，部分数据会存储在您设备上的本地数据库中。</li>
+  </ul>
+
+  <h2>2. 我们如何使用信息</h2>
+  <ul>
+    <li>提供核心功能：存钱目标管理、记录、进度展示、云同步。</li>
+    <li>发送本地每日提醒（仅在您开启时，由设备本地调度，非远程推送广告）。</li>
+    <li>保障服务安全与故障排查。</li>
+  </ul>
+
+  <h2>3. 数据存储与同步</h2>
+  <p>登录用户的云端数据托管于 <a href="https://supabase.com">Supabase</a>（PostgreSQL + Storage），受行级安全策略（RLS）保护，仅您本人可访问自己的数据。本地 SQLite 数据库用于离线读写，联网后与云端同步。</p>
+
+  <h2>4. 数据共享</h2>
+  <p>我们不会出售您的个人信息。除以下情况外，不与第三方共享：</p>
+  <ul>
+    <li>基础设施服务商（Supabase）—— 仅为提供托管与认证服务；</li>
+    <li>法律法规要求或保护用户安全所必需的情形。</li>
+  </ul>
+
+  <h2>5. 追踪与广告</h2>
+  <p>金鹅<strong>不包含广告</strong>，<strong>不追踪</strong>您在其他 App 或网站上的活动，也<strong>不使用</strong> Apple App Tracking Transparency（ATT）框架。</p>
+
+  <h2>6. 数据保留与删除</h2>
+  <p>只要您的账号处于活跃状态，我们会保留您的数据。您可在 App「设置」中申请<strong>删除账号及全部数据</strong>，删除后云端与本地数据将被清除且不可恢复。</p>
+
+  <h2>7. 儿童隐私</h2>
+  <p>本 App 不面向 13 岁以下儿童。我们不会有意收集儿童个人信息。</p>
+
+  <h2>8. 政策更新</h2>
+  <p>我们可能不时更新本政策，更新后的版本将发布于此页面，并注明生效日期。</p>
+
+  <h2>9. 联系我们</h2>
+  <p>如有隐私相关问题，请通过<a href="support.html">支持页面</a>联系我们。</p>
+</body>
+</html>
